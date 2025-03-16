@@ -1,0 +1,31 @@
+{
+  "name": "curves_lines_gates_and_notes_sequencer",
+  "version": "1.0.0",
+  "description": "A sequencer which uses Bezier curves to define value(s) at a given time",
+  "main": "main.js",
+  "author": "dorian fraser-moore",
+  "license": "ISC",
+  "homepage": "https://github.com/dorianfm/curves_lines_gates_and_notes_sequencer",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.1",
+    "showdown": "2.1.0",
+    "waaclock": "0.5.5",
+    "webmidi": "^3.1.11"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.5.0",
+    "@electron-forge/maker-deb": "^7.5.0",
+    "@electron-forge/maker-rpm": "^7.5.0",
+    "@electron-forge/maker-squirrel": "^7.5.0",
+    "@electron-forge/maker-zip": "^7.5.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.5.0",
+    "@electron-forge/plugin-fuses": "^7.5.0",
+    "@electron/fuses": "^1.8.0",
+    "electron": "^32.1.2"
+  }
+}
